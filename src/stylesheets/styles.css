@@ -1,0 +1,45 @@
+
+body {
+    width: inherit;
+    margin: 0px;
+}
+
+/*----HEADER-------*/
+
+.header-fold {
+	position: relative;
+	height: 100vh;
+	overflow: hidden;
+  width: 100%;
+}
+
+.headOne{
+  z-index: 2;
+}
+
+.headTwo{
+  z-index: 3;
+}
+/*--
+.hero-section {	
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	z-index: -1;
+}
+---*/
+
+.front {
+  z-index: 1;
+}
+
+.left {
+  z-index: 0;
+}
+.hero-section img {
+  position: absolute;
+}
+
+.responsive{
+  width: 100%;
+  height: auto;
+}

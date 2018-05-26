@@ -1,0 +1,10 @@
+   <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">viewBox="0 0 1920 1080"><style>.st0{fill:black}.st1{font-family:&apos;LetterGothicStd-Bold&apos;}.st2{font-size:80.6176px}</style>
+        <path id="path">
+            <animate attributeName="d" from="m0,110 h0" to="m0,110 h1100" dur="6.8s" begin="0s" repeatCount="indefinite"/>
+        </path>
+        <text transform="matrix(.9984 0 0 1 222.123 325.356)" fill='black'>
+            <textPath xlink:href="#path" class="st0 st1 st2">Call me, Alie
+        </textPath>
+        </text>
+    </svg>
