@@ -1,7 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton|Raleway|Roboto');
 
 body {
     width: inherit;
     margin: 0px;
+}
+
+.fs{
+  font-size: 3.5rem;
+  font-family: 'Monoton', cursive;
+  margin-bottom: 20px;
+}
+
+.ss{
+  font-family: 'Roboto', sans-serif;
+  line-height: 37px;
+}
+
+.st{
+   font-family: 'Roboto', sans-serif;
+}
+.su{
+    font-family: 'Raleway', sans-serif;
+    line-height: 29px;
+    text-align: justify;
 }
 
 /*----HEADER-------*/
@@ -43,3 +64,29 @@ body {
   width: 100%;
   height: auto;
 }
+
+/*-----WORK SECTION--------*/
+
+.work-border{
+    margin: 80px;
+    border: 1px solid #c5c5c5;
+    height: 630px;
+    display: flex;
+    align-items: center;
+}
+.work-pads-parent{
+    padding: 0px 133px;
+}
+
+.work-pads-child{
+  padding:10% 0%;
+}
+
+#work-line{
+    height: 4px;
+    top:13px;
+    transform: translate3d(0%, 0px, 0px);
+    background: #3d3560;
+}
+
+/*--------END--------------*/
