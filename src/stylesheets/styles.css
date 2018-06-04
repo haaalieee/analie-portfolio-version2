@@ -81,6 +81,7 @@ body {
   margin: 0px;
   height: -webkit-fill-available;
   display: contents;
+  position: absolute;
 }
 .work-border{
     margin: 80px;
@@ -88,6 +89,7 @@ body {
     height: 630px;
     display: flex;
     align-items: center;
+    position: relative;
 }
 #work-line{
     height: 4px;
