@@ -11,10 +11,9 @@ class Header extends React.Component {
         var tween1 = TweenMax.to('.header-fold', duration, { top: "-418px", opacity: 0  , ease:Linear.easeInOut} );
         headTimeline.add(tween1);
         var scene2 = new ScrollMagic.Scene({
-            triggerElement:'#trigger-work'
+            triggerElement:'.wrapper'
         })
         .addTo(controller);
-
         scene2.setTween(headTimeline);
     };
 
