@@ -289,7 +289,7 @@ body {
 }
 
 .pagination-controls__button {
-  background-color: white;
+  background-color: #5a5a5a;
   border-radius: 0.15em;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   cursor: default;
@@ -308,7 +308,7 @@ body {
 }
 
 .pagination-controls__button--active {
-  background-color: #4D7EA8;
+  background-color: #357878;
   color: white;
 }
 .pagination-controls__button--active:hover, .pagination-controls__button--active:hover:not(:active) {

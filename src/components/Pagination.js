@@ -79,7 +79,7 @@ Pagination.propTypes = {
 };
 
 Pagination.defaultProps = {
-  pageSize: 5,
+  pageSize: 9,
   startingPage: 1
 };
 
