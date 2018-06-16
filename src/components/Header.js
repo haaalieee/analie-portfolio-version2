@@ -1,6 +1,13 @@
 import React from 'react';
 import ScrollMagic from "./ScrollMagic";
 import {TimelineMax, TweenMax, Linear} from 'gsap/TweenMax';
+import sec1 from "../assets/images/AP-SEC-1-TEXT-2.png";
+import sec2 from "../assets/images/AP-SEC-1-TEXT-3.png";
+import sec3 from "../assets/images/AP-SEC-1-TEXT-4.png";
+import sec4 from "../assets/images/AP-SEC-1-TEXT.png";
+import sec5 from "../assets/images/AP-SEC-TV-1.png";
+import sec6 from "../assets/images/AP-SEC-TV-2.png";
+
 
 
 class Header extends React.Component {
@@ -21,22 +28,22 @@ class Header extends React.Component {
         return (
             <div className="header-fold">         
                 <div className="hero-section" id="hero-section-a">
-                    <img src="/images/AP-SEC-1-TEXT-2.png" className="responsive headOne glitch" alt="alie"/>
+                    <img src={sec1} className="responsive headOne glitch" alt="alie"/>
                 </div>
                 <div className="hero-section" id="hero-section-a">
-                    <img src="/images/AP-SEC-1-TEXT-3.png" className="responsive headOne" alt="alie"/>
+                    <img src={sec2} className="responsive headOne" alt="alie"/>
                 </div>
                 <div className="hero-section" id="hero-section-a">
-                    <img src="/images/AP-SEC-1-TEXT-4.png" className="responsive headOne" alt="alie"/>
+                    <img src={sec3} className="responsive headOne" alt="alie"/>
                 </div>
                  <div className="hero-section" id="hero-section-a">
-                    <img src="/images/AP-SEC-1-TEXT.png" className="responsive headOne" alt="alie"/>
+                    <img src={sec4} className="responsive headOne" alt="alie"/>
                 </div>
                 <div className="hero-section" id="hero-section-a">
-                    <img src="/images/AP-SEC-TV-1.png" className="responsive head-image front" alt="alie"/>
+                    <img src={sec5} className="responsive head-image front" alt="alie"/>
                 </div>
                 <div className="hero-section" id="hero-section-a">
-                    <img src="/images/AP-SEC-TV-2.png" className="responsive head-image left " alt="alie2"/>
+                    <img src={sec6} className="responsive head-image left " alt="alie2"/>
                 </div>
             </div>
         )

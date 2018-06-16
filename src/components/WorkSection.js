@@ -1,6 +1,9 @@
 import React from "react";
 import ScrollMagic from "./ScrollMagic";
 import { TimelineMax, Linear } from "gsap/TweenMax";
+import work1 from "../assets/images/AP-SEC-2-SCREEN.png";
+import work2 from "../assets/images/AP-SEC-2-2-SCREEN.png";
+import work3 from "../assets/images/AP-SEC-2-3-SCREEN.png";
 
 class WorkSection extends React.Component {
   componentDidMount() {
@@ -53,7 +56,7 @@ class WorkSection extends React.Component {
                 <div className="col-md-6">
                   <div className="tweenwscreen">
                     <img
-                      src="/images/AP-SEC-2-SCREEN.png"
+                      src={work1}
                       className="responsive headOne"
                       alt="alie"
                     />
@@ -83,7 +86,7 @@ class WorkSection extends React.Component {
                 <div className="col-md-6">
                   <div className="tweenwscreen">
                     <img
-                      src="/images/AP-SEC-2-2-SCREEN.png"
+                      src={work2}
                       className="responsive headOne"
                       alt="alie"
                     />
@@ -114,7 +117,7 @@ class WorkSection extends React.Component {
                 <div className="col-md-6">
                   <div className="tweenwscreen">
                     <img
-                      src="/images/AP-SEC-2-3-SCREEN.png"
+                      src={work3}
                       className="responsive headOne"
                       alt="alie"
                     />

@@ -1,182 +1,221 @@
+import image1 from "./assets/images/1.jpg";
+import image2 from "./assets/images/2.jpg";
+import image3 from "./assets/images/3.jpg";
+import image4 from "./assets/images/4.jpg";
+import image5 from "./assets/images/5.jpg";
+import image6 from "./assets/images/6.jpg";
+import image7 from "./assets/images/7.jpg";
+import image8 from "./assets/images/8.jpg";
+import image9 from "./assets/images/9.jpg";
+import image10 from "./assets/images/10.jpg";
+import image11 from "./assets/images/11.JPG";
+import image12 from "./assets/images/12.JPG";
+import image13 from "./assets/images/13.JPG";
+import image14 from "./assets/images/14.JPG";
+import image15 from "./assets/images/15.JPG";
+import image16 from "./assets/images/16.JPG";
+import image17 from "./assets/images/17.JPG";
+import image18 from "./assets/images/18.JPG";
+import image19 from "./assets/images/19.JPG";
+import image20 from "./assets/images/20.JPG";
+import image21 from "./assets/images/21.JPG";
+import image22 from "./assets/images/22.JPG";
+import image23 from "./assets/images/23.JPG";
+import image24 from "./assets/images/24.jpg";
+import image25 from "./assets/images/25.jpg";
+import image26 from "./assets/images/26.jpg";
+import image27 from "./assets/images/27.jpg";
+import image28 from "./assets/images/28.jpg";
+import image29 from "./assets/images/29.jpg";
+import image30 from "./assets/images/30.jpg";
+import image31 from "./assets/images/31.jpg";
+import image32 from "./assets/images/32.jpg";
+import image33 from "./assets/images/33.jpg";
+import image34 from "./assets/images/34.jpg";
+import image35 from "./assets/images/35.jpg";
+import image36 from "./assets/images/36.jpg";
+
+
+
 export const data = [
   {
     id: 1,
     name: "The Sound Cover 1",
-    image: "/images/1.jpg"
+    image: image1
   },
   {
     id: 2,
     name: "The Sound Cover 2",
-    image: "/images/2.jpg"
+    image: image2
   },
   {
     id: 3,
     name: "The Sound Cover 3",
-    image: "/images/3.jpg"
+    image: image3
   },
   {
     id: 4,
     name: "Archery Attack 1",
-    image: "/images/4.jpg"
+    image: image4
   },
   {
     id: 5,
     name: "Archery Attack 2",
-    image: "/images/5.jpg"
+    image: image5
   },
   {
     id: 6,
     name: "StudioM 1",
-    image: "/images/9.jpg"
+    image: image6
   },
   {
     id: 7,
     name: "Seiko 2",
-    image: "/images/7.jpg"
+    image: image7
   },
   {
     id: 8,
     name: "Seiko 3",
-    image: "/images/8.jpg"
+    image: image8
   },
   {
     id: 9,
     name: "Seiko 1",
-    image: "/images/6.jpg"
+    image: image9
   },
   {
     id: 10,
     name: "Coco 1",
-    image: "/images/10.jpg"
+    image: image10
   },
   {
     id: 11,
     name: "Coco 2",
-    image: "/images/11.jpg"
+    image: image11
   },
   {
     id: 12,
     name: "Coco 3",
-    image: "/images/12.jpg"
+    image: image12
   },
   {
     id: 13,
     name: "Coco 4",
-    image: "/images/13.jpg"
+    image: image13
   },
   {
     id: 14,
     name: "Coco 5",
-    image: "/images/14.jpg"
+    image: image14
   },
   {
     id: 15,
     name: "Coco 6",
-    image: "/images/15.jpg"
+    image: image15
   },
   {
     id: 16,
     name: "Coco 7",
-    image: "/images/16.jpg"
+    image: image16
   },
   {
     id: 17,
     name: "Coco 8",
-    image: "/images/17.jpg"
+    image: image17
   },
   {
     id: 18,
     name: "Mvp 1",
-    image: "/images/18.jpg"
+    image: image18
   },
   {
     id: 19,
     name: "Mvp 2",
-    image: "/images/19.jpg"
+    image: image19
   },
   {
     id: 20,
     name: "FDS1",
-    image: "/images/20.jpg"
+    image: image20
   },
   {
     id: 21,
     name: "FDS2",
-    image: "/images/21.jpg"
+    image: image21
   },
   {
     id: 22,
     name: "FDS3",
-    image: "/images/22.jpg"
+    image: image22
   },
   {
     id: 23,
     name: "FDS4",
-    image: "/images/23.jpg"
+    image: image23
   },
   {
     id: 24,
     name: "FDS5",
-    image: "/images/24.jpg"
+    image: image24
   },
   {
     id: 25,
     name: "FDS6",
-    image: "/images/25.jpg"
+    image: image25
   },
   {
     id: 26,
     name: "FDS7",
-    image: "/images/26.jpg"
+    image: image26
   },
   {
     id: 27,
     name: "FDS8",
-    image: "/images/27.jpg"
+    image: image27
   },
   {
     id: 28,
     name: "FDS9",
-    image: "/images/28.jpg"
+    image: image28
   },
   {
     id: 29,
     name: "FDS10",
-    image: "/images/29.jpg"
+    image: image29
   },
   {
     id: 30,
     name: "FDS10",
-    image: "/images/30.jpg"
+    image: image30
   },
   {
     id: 31,
     name: "FDS11",
-    image: "/images/31.jpg"
+    image: image31
   },
   {
     id: 32,
     name: "FDS12",
-    image: "/images/32.jpg"
+    image: image32
   },
   {
     id: 33,
     name: "FDS13",
-    image: "/images/33.jpg"
+    image: image33
   },
   {
     id: 34,
     name: "FDS14",
-    image: "/images/34.jpg"
+    image: image34
   },
   {
     id: 35,
     name: "FDS15",
-    image: "/images/35.jpg"
+    image: image35
   },
   {
     id: 36,
     name: "FDS16",
-    image: "/images/36.jpg"
+    image: image36
   }
 ];

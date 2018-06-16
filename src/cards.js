@@ -1,4 +1,14 @@
 
+import card1 from "./assets/images/star.png";
+import card2 from "./assets/images/bulletin.png";
+import card3 from "./assets/images/gates.png";
+import card4 from "./assets/images/cores.png";
+import card5 from "./assets/images/gates2.png";
+import card6 from "./assets/images/todo.png";
+import card7 from "./assets/images/ws.png";
+import card8 from "./assets/images/mvp.png";
+import card9 from "./assets/images/fufi.png";
+
 export const cards = [
   {
     id: 1,
@@ -7,7 +17,7 @@ export const cards = [
     description: 'Developed using Jade, CSS, ExpressJS and NodeJS. It is a website that offers physical training and let users send inquiries.',
     url:"http://coen3463-m2t16.herokuapp.com",
     image:
-      "./images/star.png"
+      card1
   },
    {
     id: 2,
@@ -16,7 +26,7 @@ export const cards = [
     description: 'Developed using ReactJS (FrontEnd), ExpressJS (BackEnd) and Material-UI for UI design with chat room capabalities.',
     url:"https://pup-cpe-bulletin.herokuapp.com/login",
     image:
-      "./images/bulletin.png"
+     card2
   },
    {
     id: 3,
@@ -25,7 +35,7 @@ export const cards = [
     description: 'Developed using Jade, CSS and ExpressJS. It offers basic CRUD operations.',
     url:"http://coen3463-m3t16.herokuapp.com",
     image:
-      "./images/gates.png"
+      card3
   },
    {
     id: 4,
@@ -34,7 +44,7 @@ export const cards = [
     description: 'Developed using HTML, Javascript and Bootstrap CSS. It offers list of seminars and events for CoRES 2016.',
     url:"https://cores2016.herokuapp.com/",
     image:
-      "./images/cores.png"
+      card4
   },
   {
     id: 5,
@@ -43,7 +53,7 @@ export const cards = [
     description: 'It uses Express Restify for single page application.',
     url:"http://coen3463-m4t16.herokuapp.com/",
     image:
-      "./images/gates2.png"
+      card5
   },
   {
     id: 6,
@@ -52,7 +62,7 @@ export const cards = [
     description: 'Developed using ReactJS and ExpressJS with API technology for single page application.',
     url:"http://coen3463-todoapp-t17.herokuapp.com",
     image:
-      "./images/todo.png"
+      card6
   },
   {
     id: 7,
@@ -61,7 +71,7 @@ export const cards = [
     description: 'Developed using Wordpress and Woocommerce.',
     url:"http://wavesafe-philippines.com",
     image:
-      "./images/ws.png"
+      card7
   },
   {
     id: 8,
@@ -70,7 +80,7 @@ export const cards = [
     description: 'Developed using Shopify.',
     url:"https://mvpselections.com.ph/",
     image:
-      "./images/mvp.png"
+      card8
   },
   {
     id: 9,
@@ -79,7 +89,7 @@ export const cards = [
     description: 'Developed using Wordpress for a single-page website.',
     url:"http://filipinosunitedforisrael.org/",
     image:
-      "./images/fufi.png"
+      card9
   },
 ];
 
