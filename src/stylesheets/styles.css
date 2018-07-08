@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Monoton|Raleway|Roboto');
+@font-face { font-family: "Ionicons"; src: url("https://code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.eot?v=2.0.1"); src: url("https://code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.eot?v=2.0.1#iefix") format("embedded-opentype"), url("https://code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.ttf?v=2.0.1") format("truetype"), url("https://code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.woff?v=2.0.1") format("woff"), url("https://code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.svg?v=2.0.1#Ionicons") format("svg"); font-weight: normal; font-style: normal; }
+
 
 body {
   width: inherit;
@@ -374,6 +376,295 @@ body {
   color: white;
 }
 /*----------------END---------------*/
+/*----------FAQ-----------*/
+.faq-sec{
+  max-height: 100%;
+  overflow-x: hidden;
+  perspective: 1px;
+  perspective-origin: center top;
+  transform-style: preserve-3d;
+}
+.faq-header {
+  height: 80vh;
+  background: url("../assets/images/DC-FAQ-COVER.png");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  vertical-align: top;
+  transform-origin: center top;
+}
+
+.faq-ex{
+  height: 43vh;
+  background: url("../assets/images/exchange.png");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  vertical-align: top;
+  transform-origin: center top;
+}
+.faq-container{
+  height: 100%;
+  background: white;
+  padding: 0rem 4rem 80px 4rem;
+}
+
+.faq-flex{
+  display: flex;
+  padding-bottom: 40px;
+}
+.faq-text-header{
+  width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 71px 0px;
+}
+
+.faq-text-subs{
+  padding: 0px 46px;
+}
+
+.faq-width{
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.accordion a {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem 4rem 1rem 1rem;
+  color: #7288a2;
+  font-size: 1.15rem;
+  font-weight: 500;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.accordion a:hover,
+.accordion a:hover::after {
+  cursor: pointer;
+  color: #03b5d2;
+}
+
+.accordion a:hover::after {
+  border: 1px solid #03b5d2;
+}
+
+.accordion a.active {
+  color: #03b5d2;
+  border-bottom: 1px solid #03b5d2;
+}
+
+.accordion a::after {
+  font-family: 'Ionicons';
+  content: '\f218';
+  position: absolute;
+  float: right;
+  right: 1rem;
+  font-size: 1rem;
+  color: #7288a2;
+  padding: 2px;
+  width: 30px;
+  height: 30px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 1px solid #7288a2;
+  text-align: center;
+}
+
+.accordion a.active::after {
+  font-family: 'Ionicons';
+  content: '\f209';
+  color: #03b5d2;
+  border: 1px solid #03b5d2;
+}
+
+.accordion .content {
+  opacity: 0;
+  padding: 0 1rem;
+  max-height: 0;
+  border-bottom: 1px solid #e5e5e5;
+  overflow: hidden;
+  clear: both;
+  -webkit-transition: all 0.2s ease 0.15s;
+  -o-transition: all 0.2s ease 0.15s;
+  transition: all 0.2s ease 0.15s;
+}
+
+.accordion .content p {
+  font-size: 1rem;
+  font-weight: 300;
+
+}
+
+.accordion-active {
+    opacity: 1;
+    padding: 1rem;
+    max-height: 100%;
+    -webkit-transition: all 0.35s ease 0.15s;
+    -o-transition: all 0.35s ease 0.15s;
+    transition: all 0.35s ease 0.15s;
+}
+.ffaq{
+  	color: #2c2d2d!important;
+    padding-bottom: 0px;
+}
+
+.faq-cod{
+    padding-bottom: 50px;
+}
+
+.faq-footer{
+    padding: 81px 308px 23px 308px!important;
+    background-color: #302f2f !important;
+    position: relative;
+}
+
+.faq-socialmedia ul li{
+    display: inline-block;
+    padding-right: 24px;
+}
+
+.faq-footer ul {
+    font-size: 1.0rem!important;
+    line-height: 29px!important;
+    color: #bdbdbd!important;
+}
+.faq-footer ul a{
+  color: #b2b3b5!important;
+}
+
+.faq-footer p {
+    font-size: 1.0rem!important;
+    line-height: 29px!important;
+    color: #bdbdbd!important;
+}
+.faq-footer-bottom{
+  width:100%;
+  background-color: #302f2f !important;
+}
+
+.faq-footer-bottom img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+/*--------FAQ MEDIA QUERIES-----------*/
+@media only screen and (max-width: 1024px) {
+  .faq-footer {
+    padding: 70px 123px 30px 123px !important;
+  }
+  .faq-footer-bottom img {
+    width:75%;
+  }
+  .faq-header {
+    height: 89vh;
+  }
+  .faq-container {
+    padding: 0rem 4rem 35px 4rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .faq-footer {
+    padding: 70px 86px 30px 86px !important;
+  }
+  .faq-socialmedia ul li {
+    padding-right: 9px;
+  }
+}
+@media only screen and (max-width: 598px) {
+  .faq-header {
+    height: 53vh;
+  }
+  .faq-text-header {
+    width: inherit;
+  }
+  .faq-container {
+    padding: 0rem 0rem 16px 0rem;
+  }
+  .faq-footer {
+    padding: 40px !important;
+  }
+  .social-links{
+    text-align: center;
+  }
+  .faq-footer .footer-subscribe{
+    text-align: center;
+  }
+  .faq-cod {
+    padding-bottom: 28px;
+    width: 300px;
+  }
+  .faq-footer .footer-main .row {
+    width: inherit!important;
+  }
+  .faq-footer ul{
+    padding: 0px!important;
+  }
+}
+@media only screen and (max-width: 425px) {
+   .faq-header {
+    height: 36vh;
+  }
+  .faq-text-header h2{
+    font-size: 18px;
+    width: inherit;
+    margin: 0 auto;
+  }
+  .faq-text-header{
+    padding: 28px 0px;
+  }
+  .faq-text-subs{
+     font-size: 18px;
+  }
+  .faq-flex {
+    display: block;
+  }
+  .faq-socialmedia img{
+    width: 29px;
+  }
+  .faq-text-subs h3{
+    font-size: 18px;
+  }
+  .faq-ex {
+    height: 34vh;
+  }
+  .faq-cod {
+    width: 168px;
+  }
+
+}
+@media only screen and (max-width: 375px) {
+  .faq-ex {
+    height: 26vh;
+  }
+  .faq-header {
+    height: 32vh;
+  }
+  .faq-text-subs h3{
+    font-size: 18px;
+  }
+  .faq-cod {
+    width: 168px;
+  }
+  .faq-footer h4 {
+   border-bottom: 0px solid rgba(255, 255, 255, 0.03);    
+   padding-bottom: 0rem; 
+  }
+}
+/*-----------END---------------------*/
+
+/*----------END-----------*/
 /*--------------FOOTER-------------*/
 footer {
 	padding-bottom: 3rem;
@@ -458,9 +749,6 @@ footer ul li {
 	}
 }
 @media only screen and (max-width:600px) {
-	.footer-main .row {
-		max-width: 420px;
-	}
 	.footer-bottom {
 		padding-bottom: .6rem;
 	}
