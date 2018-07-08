@@ -568,7 +568,7 @@ body {
     width:75%;
   }
   .faq-header {
-    height: 89vh;
+    height: 43vh;
   }
   .faq-container {
     padding: 0rem 4rem 35px 4rem;
@@ -614,7 +614,7 @@ body {
 }
 @media only screen and (max-width: 425px) {
    .faq-header {
-    height: 36vh;
+    height: 23vh;
   }
   .faq-text-header h2{
     font-size: 18px;
@@ -637,7 +637,7 @@ body {
     font-size: 18px;
   }
   .faq-ex {
-    height: 34vh;
+    height: 20vh;
   }
   .faq-cod {
     width: 168px;
@@ -646,10 +646,10 @@ body {
 }
 @media only screen and (max-width: 375px) {
   .faq-ex {
-    height: 26vh;
+    height: 15vh;
   }
   .faq-header {
-    height: 32vh;
+    height: 18vh;
   }
   .faq-text-subs h3{
     font-size: 18px;
