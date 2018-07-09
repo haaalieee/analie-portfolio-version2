@@ -34,6 +34,24 @@ import image33 from "./assets/images/33.jpg";
 import image34 from "./assets/images/34.jpg";
 import image35 from "./assets/images/35.jpg";
 import image36 from "./assets/images/36.jpg";
+import image37 from "./assets/images/37.jpg";
+import image38 from "./assets/images/38.jpg";
+import image39 from "./assets/images/39.jpg";
+import image40 from "./assets/images/40.jpg";
+import image41 from "./assets/images/41.jpg";
+import image42 from "./assets/images/42.jpg";
+import image43 from "./assets/images/43.jpg";
+import image44 from "./assets/images/44.jpg";
+import image45 from "./assets/images/45.jpg";
+import image46 from "./assets/images/46.jpg";
+import image47 from "./assets/images/47.jpg";
+import image48 from "./assets/images/48.jpg";
+import image49 from "./assets/images/49.jpg";
+import image50 from "./assets/images/50.jpg";
+import image51 from "./assets/images/51.jpg";
+import image52 from "./assets/images/52.jpg";
+import image53 from "./assets/images/53.jpg";
+import image54 from "./assets/images/54.jpg";
 
 
 
@@ -217,5 +235,95 @@ export const data = [
     id: 36,
     name: "FDS16",
     image: image36
+  },
+  {
+    id: 37,
+    name: "FDS16",
+    image: image37
+  },
+  {
+    id: 38,
+    name: "FDS16",
+    image: image38
+  },
+  {
+    id: 39,
+    name: "FDS16",
+    image: image39
+  },
+  {
+    id: 40,
+    name: "FDS16",
+    image: image40
+  },
+  {
+    id: 41,
+    name: "FDS16",
+    image: image41
+  },
+  {
+    id: 42,
+    name: "FDS16",
+    image: image42
+  },
+  {
+    id: 43,
+    name: "FDS16",
+    image: image43
+  },
+  {
+    id: 44,
+    name: "FDS16",
+    image: image44
+  },
+  {
+    id: 45,
+    name: "FDS16",
+    image: image45
+  },
+  {
+    id: 46,
+    name: "FDS16",
+    image: image46
+  },
+  {
+    id: 47,
+    name: "FDS16",
+    image: image47
+  },
+  {
+    id: 48,
+    name: "FDS16",
+    image: image48
+  },
+  {
+    id: 49,
+    name: "FDS16",
+    image: image49
+  },
+  {
+    id: 50,
+    name: "FDS16",
+    image: image50
+  },
+  {
+    id: 51,
+    name: "FDS16",
+    image: image51
+  },
+  {
+    id: 52,
+    name: "FDS16",
+    image: image52
+  },
+  {
+    id: 53,
+    name: "FDS16",
+    image: image53
+  },
+  {
+    id: 54,
+    name: "FDS16",
+    image: image54
   }
 ];
